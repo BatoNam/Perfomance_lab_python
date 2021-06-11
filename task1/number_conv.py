@@ -7,7 +7,6 @@ def itoBase(nb: str, base: str) -> str:
     # Works up to 18-iary number system
     result = ""
     symbols = "0123456789ABCDEFGH"
-    print(len(symbols))
     nb = int(nb)
     x = int(base)
     print(type(nb), type(x))
